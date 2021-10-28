@@ -1,0 +1,39 @@
+.text-center{
+  text-align: center;
+  color: #4B8D94;
+  text-shadow: 2px 2px 2px rgba(0,0,0,.9);
+}
+
+.cards{
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 30px;
+}
+
+.card{
+  width: 325px;
+  border-radius: 10px;
+  box-shadow: 5px 5px 15px rgba(0, 0, 0, .5);
+}
+
+.card-intro h2{
+  font-size: 18px;
+  font-weight: bold;
+  margin: 0;
+}
+
+.card-text p{
+  font-size: 12px;
+  font-weight: gray;
+  margin: 0;
+}
+
+.card img {
+  height: 260px;
+  width: 100%;
+  object-fit: cover;
+}
+
+.card:hover{
+  box-shadow: 5px 5px 15px rgba(0, 0, 0);
+}

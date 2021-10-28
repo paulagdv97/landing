@@ -1,0 +1,39 @@
+.banner {
+  width: 100%;
+  margin: 0;
+  padding: 180px 0;
+  background-size: cover;
+}
+
+.banner h1 {
+  color: white;
+  text-shadow: 2px 2px 2px rgba(0,0,0,.5);
+}
+
+.banner p {
+  color: white;
+  text-shadow: 2px 2px 2px rgba(0,0,0,.5);
+  font-size: 20px;
+  margin-bottom: 20px;
+}
+
+.joinus-button{
+  background-color: white;
+  margin-top: 20px;
+  color: #4B8D94;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 25px;
+  text-decoration: none;
+  padding: 8px 15px;
+  border-radius: 30px;
+  transition: .3s;
+  outline: 2px solid #4B8D94;
+  transition: .3s;
+}
+
+.joinus-button:hover{
+  font-size: 27px;
+  background-color: #4B8D94;
+  color: white;
+  outline: 2px solid white;
+}
